@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {changePlaylist = id; }; 
+            CLASS = FCWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                panel = NFHUDWindow; 
+                playlistCode = NSTextView; 
+                webView = WebView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NFHUDButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = NFHUDWindow; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {CLASS = NFIWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

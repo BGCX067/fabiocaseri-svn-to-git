@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>TEST jsLoader</title>
+	<script type="text/javascript">
+	/*******************************************************************************
+	 * Hicon4Js_Loader:
+	 *
+	 * Classe per il caricamento di risorse
+	 *
+	 ******************************************************************************/
+	function Hicon4Js_Loader() {
+		var attachFunction = function(script, callback, scope) {
+			var done = false;
+			script.onload = script.onreadystatechange = function() {
+				if(!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+					done = true;
+					callback.apply(scope, []);
+				}
+			};
+		};
+		var loaded = {};
+		return {
+			/**
+			 * Function for load a HiconBus4Js javascript module
+			 * @param {String} medouleName The name of the module
+			 * @param {Function} callback The callback to be executed once the script is loaded
+			 * @param {Object} scope (Optional) The scope within the callback have to be executed
+			 */
+			loadModule: function(moduleName, callback, scope) {
+				var url = moduleName + '.js';
+				loaded[moduleName] = this.loadScript(url, callback, scope);
+			},
+			/**
+			 * Function for unload a HiconBus4Js javascript module
+			 * @param {String} medouleName The name of the module
+			 */
+			unloadModule: function(moduleName) {
+				if(typeof(loaded[moduleName]) !== 'undefined') {
+					document.getElementsByTagName('head')[0].removeChild(loaded[moduleName]);
+					loaded[moduleName] = undefined;
+					delete loaded[moduleName];
+				}
+			},
+			/**
+			 * Function for load a script file
+			 * @param {String} url The url of the script
+			 * @param {Function} callback The callback to be executed once the script is loaded
+			 * @param {Object} scope (Optional) The scope within the callback have to be executed
+			 * @return {Object} The element representing the script tag
+			 */
+			loadScript: function(url, callback, scope) {
+				var script = document.createElement('script');
+				script.type = 'text/javascript';
+				script.src = url;
+				if(typeof(callback) === 'function') {
+					if(typeof(scope) === 'undefined') { scope = window; }
+					attachFunction(script, callback, scope);
+				}
+				document.getElementsByTagName('head')[0].appendChild(script);
+				return script;
+			},
+			/**
+			 * Function for load a stylesheet file
+			 * @param {String} url The url of the script
+			 */
+			loadStylesheet: function(url) {
+				var link = document.createElement('link');
+				link.type = 'text/css';
+				link.rel = 'stylesheet';
+				link.href = url;
+				document.getElementsByTagName('head')[0].appendChild(link);
+			}
+		};
+	}
+	</script>
+</head>
+<body>
+<div id="output"></div>
+<script type="text/javascript">
+var loader = new Hicon4Js_Loader();
+loader.loadStylesheet('css/jQwindow/mac_os_x.css');
+loader.loadScript('js/jquery-1.1.4.js', function() {doOutput('Loaded jQuery 1.1.4')});
+loader.loadScript('js/interface.js', function() {doOutput('Loaded Interface')});
+loader.loadScript('js/jquery-1.2.1.js', function() {doOutput('Loaded jQuery 1.2.1')});
+loader.loadStylesheet('css/style.css');
+function doOutput(o) {
+	var date = new Date();
+	var ts = '[' + date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear() + ' ' + date.getHours() + '.' + date.getMinutes() + '.' + date.getSeconds() + ']';
+	document.getElementById('output').innerHTML += ts + ' ' + o + '<br/>';
+}
+</script>
+</body>
+</html>

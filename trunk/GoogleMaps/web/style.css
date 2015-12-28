@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	font: 12px Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+#search {
+	height:24px;
+}
+#search input {
+	border: 1px solid #555;
+	height: 20px;
+	margin-top: 1px;
+	width: 50%;
+}
+#map_container {
+	height: 95%;
+}
+#map {
+	height: 100%;
+	width: 100%;
+}

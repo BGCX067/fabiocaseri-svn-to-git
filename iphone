@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+		<key>name</key>
+		<string>Fabio Caseri Apps</string>
+		<key>maintainer</key>
+		<string>Fabio Caseri</string>
+		<key>description</key>
+		<string>Fabio Caseri Software Beta</string>
+		<key>contact</key>
+		<string>fabio.caseri@gmail.com</string>
+		<key>url</key>
+		<string>http://fabiocaseri.googlecode.com/</string>
+		<key>category</key>
+		<string>Other Sources</string>
+	</dict>
+	<key>packages</key>
+	<array>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.HiconLogo</string>
+			<key>name</key>
+			<string>HiconLogo</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/HiconLogo.zip</string>
+			<key>size</key>
+			<string>28910</string>
+			<key>description</key>
+			<string>My first app</string>
+			<key>url</key>
+			<string>http://fabiocaseri.googlecode.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>HiconLogo.app</string>
+						<string>/Applications/HiconLogo.app</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>/Applications/HiconLogo.app</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Fabio Caseri Apps</string>
+			<key>date</key>
+			<string>1197019858</string>
+		</dict>
+<!--
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire</string>
+			<key>name</key>
+			<string>Millionaire</string>
+			<key>version</key>
+			<string>0.72</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.zip</string>
+			<key>size</key>
+			<string>605534</string>
+			<key>description</key>
+			<string>Who wants to be a millionaire for iPhone</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire.app</string>
+						<string>/Applications/Millionaire.app</string>
+					</array>
+				</array>
+				<key>update</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>/Applications/Millionaire.app</string>
+					</array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire.app</string>
+						<string>/Applications/Millionaire.app</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>/Applications/Millionaire.app</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Fabio Caseri Apps</string>
+			<key>date</key>
+			<string>1207737458</string>
+		</dict>
+-->
+		<!-- Millionaire Language Packs BEGIN -->
+<!--
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.dutch</string>
+			<key>name</key>
+			<string>Dutch language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.11</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.nl.zip</string>
+			<key>size</key>
+			<string>6660</string>
+			<key>description</key>
+			<string>Dutch questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/dutch.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207736551</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.english</string>
+			<key>name</key>
+			<string>English language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.en.zip</string>
+			<key>size</key>
+			<string>66757</string>
+			<key>description</key>
+			<string>English questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/english.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207480300</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.french</string>
+			<key>name</key>
+			<string>French language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.fr.zip</string>
+			<key>size</key>
+			<string>12944</string>
+			<key>description</key>
+			<string>French questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/french.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207356293</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.german</string>
+			<key>name</key>
+			<string>German language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.22</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.de.zip</string>
+			<key>size</key>
+			<string>49523</string>
+			<key>description</key>
+			<string>German questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/german.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1208199494</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.hungarian</string>
+			<key>name</key>
+			<string>Hungarian language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.hu.zip</string>
+			<key>size</key>
+			<string>286579</string>
+			<key>description</key>
+			<string>Hungarian questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/hungarian.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207593027</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.indian</string>
+			<key>name</key>
+			<string>Indian language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.in.zip</string>
+			<key>size</key>
+			<string>12770</string>
+			<key>description</key>
+			<string>Indian questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/indian.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1208021582</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.italian</string>
+			<key>name</key>
+			<string>Italian language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.it.zip</string>
+			<key>size</key>
+			<string>779039</string>
+			<key>description</key>
+			<string>Italian questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/italian.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207086101</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.portuguese</string>
+			<key>name</key>
+			<string>Portuguese language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.11</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.pt.zip</string>
+			<key>size</key>
+			<string>11007</string>
+			<key>description</key>
+			<string>Portuguese questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/portuguese.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207636137</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.portuguese_brazilian</string>
+			<key>name</key>
+			<string>Brazilian Portuguese language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.pt_br.zip</string>
+			<key>size</key>
+			<string>7829</string>
+			<key>description</key>
+			<string>Brazilian Portuguese questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/portuguese_brazilian.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207688695</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.russian</string>
+			<key>name</key>
+			<string>Russian language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.1</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.ru.zip</string>
+			<key>size</key>
+			<string>153553</string>
+			<key>description</key>
+			<string>Russian questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/russian.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207356711</string>
+		</dict>
+		<dict>
+			<key>bundleIdentifier</key>
+			<string>com.fabiocaseri.Millionaire.db.spanish</string>
+			<key>name</key>
+			<string>Spanish language pack for Millionaire</string>
+			<key>version</key>
+			<string>0.11</string>
+			<key>location</key>
+			<string>http://fabiocaseri.googlecode.com/svn/zips/Millionaire.es.zip</string>
+			<key>size</key>
+			<string>19277</string>
+			<key>description</key>
+			<string>Spanish questions DB for iPhone Millionaire</string>
+			<key>url</key>
+			<string>http://millionaire.fabiocaseri.com</string>
+			<key>scripts</key>
+			<dict>
+				<key>install</key>
+				<array>
+					<array>
+						<string>CopyPath</string>
+						<string>Millionaire</string>
+						<string>~/Media/Millionaire</string>
+					</array>
+				</array>
+				<key>uninstall</key>
+				<array>
+					<array>
+						<string>RemovePath</string>
+						<string>~/Media/Millionaire/questions/spanish.db</string>
+					</array>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>Millionaire Language Packs</string>
+			<key>date</key>
+			<string>1207692289</string>
+		</dict>
+-->
+		<!-- Millionaire Language Packs END -->
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 578}}";
+			sepNavSelRange = "{84, 0}";
+			sepNavVisRect = "{{0, 0}, {627, 578}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 363799980CBD433E00D72CE8 /* iDeezer */;
+		activeTarget = 8D1107260486CEB800E47090 /* iDeezer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* iDeezer */,
+		);
+		breakpoints = (
+		);
+		breakpointsGroup = 363799B70CBD44F600D72CE8 /* XCBreakpointsBucket */;
+		codeSenseManager = 363799AC0CBD434600D72CE8 /* Code sense */;
+		executables = (
+			363799980CBD433E00D72CE8 /* iDeezer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					248,
+					20,
+					148,
+					147,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					429,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					251,
+					50,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					249,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 214493228;
+			PBXWorkspaceStateSaveDate = 214493228;
+		};
+		perUserProjectItems = {
+			3627BA0E0CBD627900555F2E = 3627BA0E0CBD627900555F2E /* PBXTextBookmark */;
+			3627BA0F0CBD627900555F2E = 3627BA0F0CBD627900555F2E /* PBXTextBookmark */;
+			3627BA100CBD627900555F2E = 3627BA100CBD627900555F2E /* PBXTextBookmark */;
+			3627BA110CBD627900555F2E = 3627BA110CBD627900555F2E /* PBXTextBookmark */;
+			3627BA120CBD627900555F2E = 3627BA120CBD627900555F2E /* PBXTextBookmark */;
+			3627BA150CBD627900555F2E = 3627BA150CBD627900555F2E /* PBXTextBookmark */;
+			3627BA500CBD63FA00555F2E = 3627BA500CBD63FA00555F2E /* PBXTextBookmark */;
+			3627BA530CBD63FA00555F2E = 3627BA530CBD63FA00555F2E /* PBXTextBookmark */;
+			3627BA560CBD63FA00555F2E = 3627BA560CBD63FA00555F2E /* PBXTextBookmark */;
+			365F09A90CC8E7CD00583750 = 365F09A90CC8E7CD00583750 /* PBXTextBookmark */;
+			365F09B20CC8E80200583750 = 365F09B20CC8E80200583750 /* PBXTextBookmark */;
+			365F09B30CC8E80200583750 = 365F09B30CC8E80200583750 /* PBXTextBookmark */;
+			365F09C70CC8E82D00583750 /* PBXTextBookmark */ = 365F09C70CC8E82D00583750 /* PBXTextBookmark */;
+			369BABED0CC4BA6C0086A29F = 369BABED0CC4BA6C0086A29F /* PBXTextBookmark */;
+			36DDAE0C0CC4BE74003E29A3 = 36DDAE0C0CC4BE74003E29A3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 363799AB0CBD434600D72CE8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 527}}";
+			sepNavSelRange = "{158, 33}";
+			sepNavVisRect = "{{0, 0}, {627, 527}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* iDeezer_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 457}}";
+			sepNavSelRange = "{137, 0}";
+			sepNavVisRect = "{{0, 0}, {627, 457}}";
+		};
+	};
+	3627B9F70CBD61C800555F2E /* info.nib */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = info.nib;
+		path = /Users/fcase01z/development/iDeezer/English.lproj/MainMenu.nib/info.nib;
+		sourceTree = "<absolute>";
+	};
+	3627BA0E0CBD627900555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "int main(int argc, char *argv[])";
+		rLen = 33;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 254;
+		vrLoc = 0;
+	};
+	3627BA0F0CBD627900555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3627B9F70CBD61C800555F2E /* info.nib */;
+		name = "info.nib: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 0;
+	};
+	3627BA100CBD627900555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3699E66A0CBD5D6F0077B8DF /* classes.nib */;
+		name = "classes.nib: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 0;
+	};
+	3627BA110CBD627900555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "English: 3";
+		rLen = 0;
+		rLoc = 84;
+		rType = 0;
+		vrLen = 95;
+		vrLoc = 0;
+	};
+	3627BA120CBD627900555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 12";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 0;
+	};
+	3627BA150CBD627900555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iDeezer_Prefix.pch */;
+		name = "iDeezer_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 211;
+		vrLoc = 0;
+	};
+	3627BA500CBD63FA00555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iDeezer_Prefix.pch */;
+		name = "iDeezer_Prefix.pch: 6";
+		rLen = 0;
+		rLoc = 137;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	3627BA530CBD63FA00555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BA0CBD46E400D72CE8 /* FCWindowController.m */;
+		name = "FCWindowController.m: 22";
+		rLen = 0;
+		rLoc = 554;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 68;
+	};
+	3627BA560CBD63FA00555F2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BB0CBD46E400D72CE8 /* FCWindowController.h */;
+		name = "FCWindowController.h: 8";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 0;
+	};
+	363799980CBD433E00D72CE8 /* iDeezer */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iDeezer;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	363799AB0CBD434600D72CE8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	363799AC0CBD434600D72CE8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	363799B70CBD44F600D72CE8 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = iDeezer;
+		objects = (
+		);
+	};
+	363799BA0CBD46E400D72CE8 /* FCWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1004, 798}}";
+			sepNavSelRange = "{436, 0}";
+			sepNavVisRect = "{{0, 322}, {627, 457}}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	363799BB0CBD46E400D72CE8 /* FCWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 457}}";
+			sepNavSelRange = "{222, 0}";
+			sepNavVisRect = "{{0, 0}, {627, 457}}";
+		};
+	};
+	365F09A90CC8E7CD00583750 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BA0CBD46E400D72CE8 /* FCWindowController.m */;
+		name = "FCWindowController.m: 16";
+		rLen = 0;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 551;
+	};
+	365F09B20CC8E80200583750 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BA0CBD46E400D72CE8 /* FCWindowController.m */;
+		name = "FCWindowController.m: 16";
+		rLen = 0;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 551;
+	};
+	365F09B30CC8E80200583750 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BA0CBD46E400D72CE8 /* FCWindowController.m */;
+		name = "FCWindowController.m: 16";
+		rLen = 0;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	365F09C70CC8E82D00583750 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BA0CBD46E400D72CE8 /* FCWindowController.m */;
+		name = "FCWindowController.m: 16";
+		rLen = 0;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 551;
+	};
+	3699E66A0CBD5D6F0077B8DF /* classes.nib */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = classes.nib;
+		path = /Users/fcase01z/development/iDeezer/English.lproj/MainMenu.nib/classes.nib;
+		sourceTree = "<absolute>";
+	};
+	369BABED0CC4BA6C0086A29F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BB0CBD46E400D72CE8 /* FCWindowController.h */;
+		name = "FCWindowController.h: currentCode";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	36DDAE0C0CC4BE74003E29A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 363799BA0CBD46E400D72CE8 /* FCWindowController.m */;
+		name = "FCWindowController.m: 16";
+		rLen = 0;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 551;
+	};
+	8D1107260486CEB800E47090 /* iDeezer */ = {
+		activeExec = 0;
+		executables = (
+			363799980CBD433E00D72CE8 /* iDeezer */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {686, 527}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRect = "{{0, 0}, {627, 527}}";
+		};
+	};
+}

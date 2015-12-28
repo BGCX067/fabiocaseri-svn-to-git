@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Hicon4Js_Desktop</title>
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/prototype.js"></script>
+	<script type="text/javascript" src="js/window.js"></script>
+	<script type="text/javascript" src="js/Hicon4Js_Util.js"></script>
+	<script type="text/javascript" src="js/Hicon4Js_DOMEventManager.js"></script>
+	<script type="text/javascript" src="js/Hicon4Js_Desktop.js"></script>
+	<script type="text/javascript" src="js/Hicon4Js_PWCWindowManager.js"></script>
+</head>
+<body>
+<a href="javascript:void(0);" onclick="desktop.openWindow('Anagrafe', {url:'http://vmrhas4-01.intra:9090/Anagrafe/anagrafe.html',title:'Anagrafe',width:'40%',height:'40%'});return false;">Anagrafe</a><br/>
+<a href="javascript:void(0);" onclick="desktop.openWindow('SpecimenFirmePopup', {popup:true, url:'http://vmrhas4-01.intra:9090/SpecimenFirme/signature.html',title:'Specimen Firme',width:300,height:200});return false;">Specimen Firme</a>
+<script type="text/javascript">
+Hicon4Js_Util['domEventManager'] = new Hicon4Js_DOMEventManager();
+var desktop = new Hicon4Js_Desktop();
+var windowManager = new Hicon4Js_PWCWindowManager();
+desktop.setWindowManager(windowManager);
+desktop.init();
+</script>
+</body>
+</html>

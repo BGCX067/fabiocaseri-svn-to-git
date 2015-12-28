@@ -1,0 +1,4 @@
+UBI Banca;Sede;Piazza Vittorio Veneto 8, 24122 Bergamo, Bergamo (Lombardia), Italy
+BPB;Filiale di Carvico;via Europa Unita, 3 - 24030 Carvico, Bergamo (Lombardia), Italy
+BPB;Filiale di Calusco d'Adda;via Vittorio Emanuele, 35 - 24030 Calusco d'Adda, Bergamo (Lombardia), Italy
+BPB;Filiale di Villa d'Adda;via Fossa, 8 - 24030 Villa d'Adda, Bergamo (Lombardia), Italy

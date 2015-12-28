@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<title>jQuery CoverFlow - Demo</title>
+		<style>
+			body {
+				margin: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				background: black;
+			}
+		</style>
+		<link rel="stylesheet" href="jquery-coverflow.css" type="text/css"/>
+		<script type="text/javascript" src="lib/jquery-1.2.3.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="lib/jquery.dimensions.js"></script>
+		<script type="text/javascript" src="lib/ui.mouse.js"></script>
+		<script type="text/javascript" src="lib/ui.slider.js"></script>
+		<script type="text/javascript" src="lib/jquery.reflect.js"></script>
+		<script type="text/javascript" src="jquery-coverflow.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#coverflow').coverflow({captions: true, useReflection: true});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="wrap" id="bodyWrap">
+
+		 <div id="coverflow">
+			<img src="imgs/cover1.jpg" alt="Caption 1"/>
+			<img src="imgs/cover2.jpg" alt="Caption 2"/>
+			<img src="imgs/cover1.jpg" alt="Caption 3"/>
+			<img src="imgs/cover2.jpg" alt="Caption 4"/>
+			<img src="imgs/cover1.jpg" alt="Caption 5"/>
+			<img src="imgs/cover2.jpg" alt="Caption 6"/>
+			<img src="imgs/cover1.jpg" alt="Caption 7"/>
+			<img src="imgs/cover2.jpg" alt="Caption 8"/>
+		 </div>
+
+		</div>
+	</body>
+</html>

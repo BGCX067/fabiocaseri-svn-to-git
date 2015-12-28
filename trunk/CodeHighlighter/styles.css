@@ -1,0 +1,57 @@
+pre {
+	border: 1px solid black;
+	border-color: #BBB #DDD #DDD #BBB;
+	margin : 2em;
+	padding : 1em;
+	line-height: 1.5;
+	background: white !important;
+	overflow: auto;
+	color: black !important;
+}
+code {
+	font-size: 1.2em;
+}
+.javascript .comment, .objc .comment, .perl .comment, .ruby .comment, .shell .comment {
+	color : green;
+}
+.javascript .string, .objc .string, .perl .string, .ruby .string, .shell .string {
+	color : teal;
+}
+.javascript .keywords, .objc .keywords, .perl .keywords, .ruby .keywords, .shell .keywords {
+	color : purple;
+}
+.javascript .global, .objc .global {
+	color : blue;
+}
+.javascript .brackets, .objc .brackets, .perl .brackets, .ruby .brackets, .shell .brackets {
+	color : navy;
+}
+.css .comment {
+	color : gray;
+}
+.css .properties {
+	color : navy;
+}
+.css .selectors {
+	color : maroon;
+	font-weight : bold;
+}
+.css .units {
+	color :red;
+}
+.css .urls {
+	color :green;
+}
+.html .tag {
+	color : purple;
+}
+.html .comment {
+	color : gray;
+	font-style: italic;
+}
+.html .string {
+	color : navy;
+}
+.html .doctype {
+	color : teal;
+}
